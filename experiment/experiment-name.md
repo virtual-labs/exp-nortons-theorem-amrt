@@ -1,1 +1,1 @@
-## Experiment name
+## Norton's theorem

@@ -1,24 +1,24 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b> Physical Sciences
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Electric Circuits Virtual Lab
+<b> Experiment|     <b> Norton's theorem
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+Norton’s theorem for electrical networks states that any collection of voltage sources, current sources, and resistors with two terminals is electrically equivalent to an ideal current source, I, in parallel with a single resistor, R. For single-frequency AC circuits, the theorem can also be applied using impedances instead of resistances.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Amrita Virtual Labs
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
+<b> Institute | <b>  Amrita Vishwa Vidyapeetham
+<b> Email id|     <b>  virtual_labs@am.amrita.edu
 <b> Department |  
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
+1 | Mr. Saneesh P F | . | . | Amrita Vishwa Vidyapeetham | .
 2 | . | . | . | . | .
