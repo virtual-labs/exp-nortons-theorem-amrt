@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+   {
+      "question": "Five volts is applied to two 2 ohm resistors in series. The resulting current is?",
+      "answers": {
+        "a": "Not enough information is given.",
+        "b": "2.5 A",
+        "c": "1.25 A",
+        "d": "5 A"
+      },
+      "explanations": {
+        "a": "Incorrect. We have enough information: total resistance = 4Ω.",
+        "b": "Too high; check Ohm’s law.",
+        "c": "Correct. Total resistance = 4Ω; I = V/R = 5/4 = 1.25 A.",
+        "d": "Too high; would require lower resistance."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Five volts is applied to two 2 ohm resistors connected in parallel. The resulting current is?",
+      "answers": {
+        "a": "5 A",
+        "b": "1 A",
+        "c": "2.5 A",
+        "d": "1.25 A"
+      },
+      "explanations": {
+        "a": "Too high; implies a much lower total resistance.",
+        "b": "Too low; calculate total parallel resistance.",
+        "c": "Correct. Parallel resistance = 1Ω; I = 5V / 1Ω = 5 A.",
+        "d": "Incorrect division."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Six volts is applied to a 2 ohm resistor in series with two 2 ohm resistors connected in parallel. The current through the first resistor is?",
+      "answers": {
+        "a": "3 A",
+        "b": "2 A",
+        "c": "1 A",
+        "d": "0.5 A"
+      },
+      "explanations": {
+        "a": "Too high; check total resistance.",
+        "b": "Too high; recheck the division.",
+        "c": "Correct. Parallel of two 2Ω = 1Ω. Total R = 2Ω + 1Ω = 3Ω. I = 6/3 = 2 A.",
+        "d": "Too low; check Ohm's law."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which circuit law states that the sum of all currents into and out of a node equals zero?",
+      "answers": {
+        "a": "Lenz's Current Law.",
+        "b": "Chebyshev's Current Law.",
+        "c": "Kirchhoff's Current Law.",
+        "d": "Norton's Current Law."
+      },
+      "explanations": {
+        "a": "Lenz's Law deals with electromagnetic induction, not current at nodes.",
+        "b": "Chebyshev's Law is unrelated to circuits.",
+        "c": "Correct. Kirchhoff's Current Law (KCL) states that total current entering a node equals the total leaving.",
+        "d": "Norton's Theorem deals with equivalent circuits, not node currents."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A circuit element for which the current flowing through is independent of voltage across it, is called an....",
+      "answers": {
+        "a": "Ideal current source",
+        "b": "Controlled voltage source",
+        "c": "Ideal voltage source",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Correct. An ideal current source provides constant current regardless of voltage.",
+        "b": "Incorrect; controlled sources depend on other parameters.",
+        "c": "This describes a voltage source, not current independence.",
+        "d": "Not correct; a valid element exists."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
