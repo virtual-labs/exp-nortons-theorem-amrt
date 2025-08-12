@@ -34,6 +34,57 @@
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Six volts is applied to a 2 ohm resistor in series with two 2 ohm resistors connected in parallel. The current through the first resistor is?",
+      "answers": {
+        "a": "3 A",
+        "b": "2 A",
+        "c": "1 A",
+        "d": "0.5 A"
+      },
+      "explanations": {
+        "a": "Too high; check total resistance.",
+        "b": "Too high; recheck the division.",
+        "c": "Correct. Parallel of two 2Ω = 1Ω. Total R = 2Ω + 1Ω = 3Ω. I = 6/3 = 2 A.",
+        "d": "Too low; check Ohm's law."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which circuit law states that the sum of all currents into and out of a node equals zero?",
+      "answers": {
+        "a": "Lenz's Current Law.",
+        "b": "Chebyshev's Current Law.",
+        "c": "Kirchhoff's Current Law.",
+        "d": "Norton's Current Law."
+      },
+      "explanations": {
+        "a": "Lenz's Law deals with electromagnetic induction, not current at nodes.",
+        "b": "Chebyshev's Law is unrelated to circuits.",
+        "c": "Correct. Kirchhoff's Current Law (KCL) states that total current entering a node equals the total leaving.",
+        "d": "Norton's Theorem deals with equivalent circuits, not node currents."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A circuit element for which the current flowing through is independent of voltage across it, is called an....",
+      "answers": {
+        "a": "Ideal current source",
+        "b": "Controlled voltage source",
+        "c": "Ideal voltage source",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Correct. An ideal current source provides constant current regardless of voltage.",
+        "b": "Incorrect; controlled sources depend on other parameters.",
+        "c": "This describes a voltage source, not current independence.",
+        "d": "Not correct; a valid element exists."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
   ]
 }
